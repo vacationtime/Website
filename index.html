@@ -1,27 +1,57 @@
 <!doctype html>
 <title>Example</title>
 <style>
-#grid { 
+body {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2vw;
+  grid-template-areas:
+    "header header header"
+    "nav article ads"
+    "footer footer footer";
+  grid-template-rows: 80px 1fr 60px;
+  grid-template-columns: 10% 1fr 7.5%;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  height: 120vh;
+  margin: 0;
+
+
+
+  div:hover {
+      width: 300px;
+
   }
-#grid > div {
-  font-size: 5vw;
-  padding: .5em;
-  background: gold;
-  text-align: center;
 }
+header, footer, article, nav, div {
+  padding: 50px;
+
+  }
+#pageHeader {
+  grid-area: header;
+  background: URL("Header.png");
+
+  }
+#pageFooter {
+  grid-area: footer;
+  }
+#mainArticle {
+  grid-area: article;
+  background: URL("a href="http://www.yahoo.com">here</a>");
+
+
+  }
+#mainNav {
+  grid-area: nav;
+  background-image: URL("Nav bar Right.png");
+  }
+#siteAds {
+  grid-area: ads;
+  }
 </style>
-<div id="grid">
-  <div>https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/13001000/Beagle-On-White-01-400x267.jpg</div>
-  <div>2</div>
-  <div>3</div>
-  <div>4</div>
-  <div>5</div>
-  <div>6</div>
-  <div>7</div>
-  <div>8</div>
-  <div>9</div>
-</div>
+<body>
+  <header  id="pageHeader">Learning Time</header>
+  <article id="mainArticle">Article</article>
+  <nav id="mainNav">Nav</nav>
+  <div id="siteAds">Ads</div>
+  <footer id="pageFooter">Footer</footer>
+  
+</body>
