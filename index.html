@@ -1,12 +1,27 @@
-<!DOCTYPE html>
-<title>My Example</title>
-
-<!-- Image -->
-<img usemap="#aus-nz" src="/pix/examples/australia-nz-map.gif" width="200" height="142" 
-alt="Map of Australia and New Zealand">
-
-<!-- Map -->
-<map name="aus-nz">
-    <area shape="poly" coords="3,47,45,12,105,7,140,60,120,125,12,90" href="https://en.wikipedia.org/wiki/Australia" target="_blank" alt="Australia">
-    <area shape="poly" coords="180,85,200,98,167,142,157,138" href="https://en.wikipedia.org/wiki/New_Zealand" target="_blank" alt="New Zealand">
-</map>
+<!doctype html>
+<title>Example</title>
+<style>
+#grid { 
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2vw;
+  }
+#grid > div {
+  font-size: 5vw;
+  padding: .5em;
+  background: gold;
+  text-align: center;
+}
+</style>
+<div id="grid">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>
+</div>
