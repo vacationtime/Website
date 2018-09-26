@@ -2,62 +2,20 @@
 <link rel="stylesheet" tyle="text/css" href="text_over_image.css">
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 <title>Example</title>
-<style>
-#content {
-overflow: scroll;
-}
-body {
-  display: grid;
-  grid-template-areas:
-    "header header header"
-    "nav article ads"
-    "footer footer footer";
-  grid-template-rows: 120px 1fr 60px;
-  grid-template-columns: 9.5% 1fr 6%;
-  grid-row-gap: 0px;
-  grid-column-gap: 0px;
-  height: 240vh;
-  margin: 0;
-
-
-  div:hover {
-      width: 300px;
-
-  }
-}
-header, footer, article, nav, div {
-  padding: 50px;
-
-  }
-  #pageHeader {
-    grid-area: header;
-    background-color: #FFD4C8;
-    }
-  #pageFooter {
-    grid-area: footer;
-    }
-  #mainArticle {
-    grid-area: article;
-    }
-  #mainNav {
-    grid-area: nav;
-    background-color: #FFD4C8;
-    }
-  #siteAds {
-    grid-area: ads;
-    }
-</style>
 <body>
   <header  id="pageHeader">Learning Time</header>
   <article id="mainArticle">
 
   </article>
   <nav id="mainNav">
-    <a href="index.html" target="_self">Home</a>
-    <a href="page2.html" target="_self">Stardew</a><br />
-    <a href="purchase.html" target="_self">Wish List</a>
+    <ul>
+      <li><a href="index.html" target="_self">Home</a></li>
+      <li><a href="page2.html" target="_self">Stardew</a><br /></li>
+      <li><a href="purchase.html" target="_self">Wish List</a></li>
+      <li><a href="Mounts.html" target="_self">Mounts</a></li>
+      <li><a href="cat.html" target="_self">Cat</a></li>
+    </ul>
   </nav>
-  <div id="siteAds">Ads</div>
   <footer id="pageFooter">Footer</footer>
 
 </body>
