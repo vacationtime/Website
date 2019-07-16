@@ -30,7 +30,7 @@ header, footer, article, nav, div {
   }
   #pageHeader {
     grid-area: header;
-    background-color: #FFD4C8;
+    background-color: ##d4d4d4;
     }
   #pageFooter {
     grid-area: footer;
@@ -50,7 +50,7 @@ nav{
 
 .btn-group .button {
     font-family: 'Amatic SC', cursive;
-    background-color: #FFD4C8; /* Green */
+    background-color: ##d4d4d4; /* Green */
     border: none;
     color: black;
     padding: 15px 100px;
@@ -77,11 +77,11 @@ nav{
   width:150px;
   height:100%;
   border-color:pink;
-  background-color: #FFD4C8;
+  background-color: ##d4d4d4;
   margin-top: 100px;
 }
 #mainNav ul{
-  background-color:#FFD4C8;
+  background-color:##d4d4d4;
   height:100%;
   overflow-y:auto;
   overflow-x:auto;
@@ -167,18 +167,18 @@ table.GeneratedTable {
   background-color: #ffffff;
 border-collapse: separate;
   border-width: 10px;
-  border-color: #665550;
+  border-color: ##d4d4d4;
   border-style: double;
   color: #000000;
 }
 
 table.GeneratedTable td, table.GeneratedTable th {
   border-width: 10px;
-  border-color: #665550;
+  border-color: ##d4d4d4;
   border-style: double;
   padding: 15px;
 }
 
 table.GeneratedTable thead {
-  background-color: #ffdfc8;
+  background-color: ##d4d4d4;
 }
